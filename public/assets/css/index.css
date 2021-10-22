@@ -25,3 +25,8 @@ label {
     color: red;
     font-style: italic;
 }
+
+.footer {
+    font-style: italic;
+    font-size: 0.8rem;
+}

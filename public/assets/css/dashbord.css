@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*,
+*::before,
+*::after {
+    font-family: 'Noto Sans Mono', monospace;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    min-height: 75rem;
+    padding-top: 6rem;
+}
+
+.navbar {
+    box-shadow: 0px 0px 0px 2px outset;
+    right: 0px;
+}
+
+.chart-samedi {
+    height: 100px;
+}
+
+.image {
+    width: fit-content;
+}
+
+#myChart {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 50px;
+}
+
+.present,
+.absent {
+    border: 1px outset grey;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 1px;
+    text-align: center;
+    margin: 25px;
+}
+
+.list-group-item {
+    font-style: italic;
+}
+
+.li-hover:hover {
+    background-color: whitesmoke;
+}
+
+.settings {
+    color: white;
+    position: relative;
+}
+
+.settings:hover {
+    background-color: transparent;
+}
+
+.masque {
+    display: none;
+}
+
+.l3 {
+    background-color: rgb(238, 232, 232);
+}
+
+.footer {
+    font-style: italic;
+    font-size: 0.8rem;
+}
