@@ -91,6 +91,7 @@ for (i of present) {
     li.appendChild(form)
     presentDiv.appendChild(li)
 }
+
 for (i of absent) {
     let li = document.createElement('li')
     let span = document.createElement('span')
