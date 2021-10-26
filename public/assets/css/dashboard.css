@@ -35,7 +35,7 @@ body {
 .absent {
     border: 1px outset grey;
     border-radius: 10px;
-    box-shadow: 2px 2px 4px 1px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     text-align: center;
     margin: 25px;
 }
@@ -68,4 +68,10 @@ body {
 .footer {
     font-style: italic;
     font-size: 0.8rem;
+}
+
+.tribuDiv {
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
